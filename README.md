@@ -1,6 +1,8 @@
 # oraclesql_example
 >Included is a relational database (Entity Relationship Diagram and normalized tables) for a company, along with five programs to process    orders and to produce sales related reports for the management. 
 
+## setup.sql
+>Created tables then inserted data into it's respective table.
 
 ## order.sql
 >To place an order, the user runs the order.sql program. The system first prompts the greeting message and automatically displays today’s date. The system then prompts the user to enter the customer number. Customer name (last name first, comma, then first name), address and phone are displayed. The system then prompts for the item number. Item description and unit price is displayed. The system then asks for the quantity ordered. All warehouses that currently carry this product, along with the inventory level, are displayed. The user then chooses one warehouse from the list. At this point, the system updates the sales order data to the database, and assigned a unique order number to this order. The order status is ‘OPEN’. The order number and order status is displayed for the user. </p>
